@@ -16,7 +16,7 @@ public class Marks{
 }
 class Grade extends Marks{
 	Grade(double a, double b, double c){
-		super(a,b,c);
+		super(a,b,c);      //call superclass's constructor in subclass's constructor
 		calculateGrade();
 	}
 	public void calculateGrade() {
